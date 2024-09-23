@@ -17,7 +17,7 @@ def standaardprijs(afstandKm):
         # Als een negatieve afstandswaarde wordt ingevoerd, wordt deze als 0 geteld
 
     if afstandKm > 50:
-        prijs = 15 + (afstandKm - 50) * 0.60
+        prijs = 15 + (afstandKm) * 0.60
     #15 euro voor de eerste 50 km, en 60 cent extra voor de elke km.
     else:
         prijs = afstandKm * 0.80
